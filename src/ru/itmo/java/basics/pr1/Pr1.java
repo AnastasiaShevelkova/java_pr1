@@ -17,7 +17,11 @@ public class Pr1 {
         System.out.println(m);
         //Задание 3
         double number = 10500;
+<<<<<<< HEAD
         double result = (number / 10) / 10.d;
+=======
+        double result = (number / 10) / 10;
+>>>>>>> origin/lab1
         System.out.println(result);
         //Задание 4
         double num1 = 3.6;
