@@ -1,14 +1,6 @@
 package ru.itmo.java.basics.p6;
 
 public class Gazel extends Car {
-    public int getWheels() {
-        return wheels;
-    }
-
-    public void setWheels(int wheels) {
-        this.wheels = wheels;
-    }
-
     private int wheels;
 
     public int getMaxWeight() {
@@ -25,15 +17,25 @@ public class Gazel extends Car {
         super(w, m, c, s);
         this.wheels = wheels;
         this.maxWeight = maxWeight;
-    }
-    public void wheels(){
-        System.out.printf("Кол-во колес:%s\n", wheels);
-
-    }public void maxWeight(){
-        System.out.printf("Максимальная скорость:%s\n", maxWeight);
-
-
 
     }
-}
+    public Gazel(int wheels, int maxWeight){
+        this.wheels = wheels;
+        this.maxWeight = maxWeight;
+
+    }
+    public void setNewWheels(int newWheels){
+        this.wheels = newWheels;
+        System.out.println("Теперь у грузовика " + wheels + "\nколеc");
+    }
+
+
+
+
+
+
+
+
+    }
+
 

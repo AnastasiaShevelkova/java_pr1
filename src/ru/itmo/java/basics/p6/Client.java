@@ -15,18 +15,19 @@ public class Client extends Human {
         super(name, surname);
         this.bank = bank;
     }
-    public void bank(){
-        System.out.printf("Название банка:%s\n",bank);
-    }
 
     @Override
-    public void absctractMethod() {
+    public void getInfo() {
+        System.out.println("Название банка: " + this.bank);
+        System.out.println("Клиент банка: " + this.getName() + " " + this.getSurname());
+    }
 
     }
 
 
 
-}
+
+
 
 
 

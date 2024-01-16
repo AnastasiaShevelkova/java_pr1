@@ -18,16 +18,10 @@ public abstract class Human {
         this.name = name;
         this.surname = surname;
     }
-
-    public abstract void absctractMethod();
-
-
-    public void info() {
-        System.out.printf("Имя:%s\nФамилия:%s\n", name, surname);
-
+    public abstract void getInfo();
     }
 
-}
+
 
 
 

@@ -16,5 +16,6 @@ public class Pr5_2 {
             System.out.println("Не палиндром");
         }
 
-    }
+
+        }
 }
